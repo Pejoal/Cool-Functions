@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator & Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="author" content="Pejoal" />
+    <meta name="copyright" content="Pejoal" />
+  </head>
+  <body>
+    <h1>Age Calculator & Password Generator</h1>
+      <fieldset id="age">
+        <legend>Age Calculator</legend>
+        <input type="date" id="birth" />
+        <section id="date"></section>
+        <hr />
+        <section>
+          <h2 id="absolute"></h2>
+          <h4 id="years"></h4>
+          <h4 id="months"></h4>
+          <h4 id="days"></h4>
+          <h4 id="hours"></h4>
+          <h4 id="minutes"></h4>
+          <h4 id="seconds"></h4>
+        </section>
+        <button type="submit">Get Data</button>
+      </fieldset>
+
+      <fieldset id="pass_generator">
+        <legend>Password Generator</legend>
+        <section>
+          <label for="length">Length</label>
+          <input type="number" value="8" min="1" max="200" id="length" />
+        </section>
+        <section>
+          <label for="characters">Include Characters</label>
+          <input type="checkbox" class="switch" id="characters" checked />
+        </section>
+        <section>
+          <label for="numbers">Include Numbers</label>
+          <input type="checkbox" class="switch" id="numbers" />
+        </section>
+        <section>
+          <label for="signs">Include Signs</label>
+          <input type="checkbox" class="switch" id="signs" />
+        </section>
+        <output>QWE123!@#</output>
+        <button>Copy Password</button>
+        <h5></h5>
+      </fieldset>
+
+    <a href="../">Home Page</a>
+    <script src="app.js"></script>
+  </body>
+</html>
