@@ -1,10 +1,8 @@
 # Pejoal
 
-This is one of my projects
+## Age Calcuator & Password Generator
 
-## Demo
-
-[Live] https://pejoal.000webhostapp.com/
+- [Live Demo](https://pejoal.000webhostapp.com/fun/)
 
 ## Skills
 
