@@ -2,7 +2,7 @@
 
 ## Age Calcuator & Password Generator
 
-- [Live Demo](https://pejoal.000webhostapp.com/fun/)
+- [Live Demo]([https://pejoal.000webhostapp.com/fun/](https://pejoal.github.io/Cool-Functions/))
 
 ## Skills
 
